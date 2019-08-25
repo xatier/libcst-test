@@ -19,3 +19,7 @@ pip install libcst
 
 python test.py
 ```
+
+# License
+
+See LICENSE.
