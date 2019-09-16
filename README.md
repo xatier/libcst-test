@@ -15,7 +15,7 @@ python3 -m venv venv
 . venv/bin/activate
 
 pip install -U pip
-pip install libcst
+pip install -r requirements.tx
 
 python test.py
 ```
