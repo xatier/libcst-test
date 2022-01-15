@@ -1,0 +1,6 @@
+Found @app.route -> on login '/login' methods=[ 'GET', 'POST',  ]
+
+Found @app.route -> on hello '/'
+
+Found @app.route -> on hello_name '/<name>'
+

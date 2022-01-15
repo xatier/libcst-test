@@ -40,7 +40,7 @@ def handle_decorator(func_name: str, call: Call) -> None:
             args_str += ' '
 
         print(f'Found @{decorator_obj_name}.{decorator_obj_func} -> ', end='')
-        print(f'on {func_name} {args_str}\n')
+        print(f'on {func_name} {args_str.strip()}\n')
 
 
 def parse_module(source_code: str) -> None:
